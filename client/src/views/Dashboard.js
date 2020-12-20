@@ -66,6 +66,7 @@ function Dashboard(props) {
 										<Row>
 											<Col className='text-left' sm='6'>
 												<CardTitle tag='h2'>Temperatures</CardTitle>
+												<h5 className='card-category'>{data[0].name}</h5>
 											</Col>
 										</Row>
 									</CardHeader>
